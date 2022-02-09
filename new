@@ -74,7 +74,7 @@ local function JUDYRF_fake_script()
 	local script = Instance.new('LocalScript', LoginButton)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		if script.Parent.Parent.Username.Text == "MichiMichi Yuuki" and script.Parent.Parent.Password.Text == "FreeVersion" then
+		if script.Parent.Parent.Username.Text == "Lakie9012" and script.Parent.Parent.Password.Text == "MobileVersion" then
 			local sound = Instance.new("Sound", game.Workspace)
 			sound.SoundId = "rbxassetid://2027986581"
 			sound.Looped = false
